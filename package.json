@@ -9,7 +9,7 @@
       "stage-0"
     ]
   },
-  "name": "carnot",
+  "name": "bitrageur",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aastein/carnot.git"
+    "url": "git+https://github.com/aastein/bitrageur.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aastein/carnot/issues"
+    "url": "https://github.com/aastein/bitrageur/issues"
   },
-  "homepage": "https://github.com/aastein/carnot#readme",
+  "homepage": "https://github.com/aastein/bitrageur#readme",
   "dependencies": {
     "axios": "^0.16.2",
     "babel-cli": "^6.24.1",
