@@ -1,4 +1,4 @@
-# arbitr8
+# bitrageur
 
 <p align="center">
   <img align="center" src="/images/carnot-cycle.png" width="200">
@@ -19,7 +19,7 @@ The values of cryptocurrencies vary across exchanges. Carnot analyzes the exchan
 
 ##### Clone this repo
 
-`git clone https://github.com/aastein/carnot.git`
+`git clone https://github.com/aastein/bitrageur.git`
 
 ##### Install dependencies (If you don't have npm you can get it here https://www.npmjs.com/get-npm)
 
