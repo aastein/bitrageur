@@ -1,0 +1,61 @@
+{
+  "babel": {
+    "plugins": [
+      "transform-eval",
+      "transform-regenerator"
+    ],
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "name": "carnot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "mocha --no-timeouts --compilers js:babel-core/register --require babel-polyfill --recursive src/**/test_*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aastein/carnot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aastein/carnot/issues"
+  },
+  "homepage": "https://github.com/aastein/carnot#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "coinbase": "^2.0.6",
+    "coinbase-node": "^0.2.1",
+    "crypto": "0.0.3",
+    "eslint": "^4.3.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "gdax": "github:coinbase/gdax-node",
+    "got": "^7.1.0",
+    "kraken-api": "^1.0.0",
+    "mocha": "^3.5.0",
+    "node-fetch": "^1.7.2",
+    "qs": "^6.5.0",
+    "querystring": "^0.2.0",
+    "regenerator-runtime": "^0.10.5",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-eval": "^6.22.0",
+    "babel-plugin-transform-regenerator": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
